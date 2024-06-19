@@ -2,7 +2,7 @@ from typing import Any, List
 from litestar import Controller, Router
 from litestar import get, post
 
-from librarypy.models import Book
+from mock_library_api.models import Book
 
 
 class BookController(Controller):

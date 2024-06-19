@@ -5,8 +5,8 @@ from beanie import init_beanie
 from litestar import Litestar
 from motor.motor_asyncio import AsyncIOMotorClient
 
-from librarypy.controller import router
-from librarypy.models import Book
+from mock_library_api.controller import router
+from mock_library_api.models import Book
 
 load_dotenv()
 
