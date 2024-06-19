@@ -2,12 +2,12 @@
 name = "mock-library-api"
 version = "0.1.0"
 description = "Library REST API"
-authors = ["hexamehcimal@gmail.com"]
+authors = ["hexamehcimal <hexamehcimal@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.11"
-litestar = "^2.9.0"
+litestar = {extras = ["standard"], version = "^2.9.0"}
 python-dotenv = "^1.0.1"
 beanie = "^1.26.0"
 httpx = "^0.27.0"
